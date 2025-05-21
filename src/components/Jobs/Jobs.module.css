@@ -1,0 +1,136 @@
+.joinTeam {
+  padding-top: 180px;
+  margin-bottom: 90px;
+}
+.joinTop {
+  text-align: center;
+  /* max-width: 660px; */
+  max-width: 760px;
+  margin: 0 auto 50px;
+}
+.job {
+  max-width: 1140px;
+  margin: 0 auto 30px;
+  box-shadow: 0px 2px 6px rgb(0 0 0 / 16%);
+  padding: 20px 20px 12px;
+  border-radius: 3px;
+}
+.job:hover {
+  background: #ff7f00;
+  transition: .7s ease-in-out;
+}
+
+.jobLeft span {
+  width: 90px;
+  height: 30px;
+  background: #faecde;
+  color: #ff7f00;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 2px;
+  margin-bottom: 15px;
+}
+.job:hover .jobLeft span {
+  background: #fff;
+}
+.jobLeft h4 {
+  font-size: 25px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-top: 20px;
+  line-height: 36px;
+}
+.job:hover .jobLeft h4{
+  color: #fff;
+}
+.jobRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.job:hover .jobRight p {
+  color: #fff;
+}
+
+
+ .btnApply{
+  padding: .9rem 1rem .6rem;
+  min-width: 185px;
+  height: auto;
+  
+}
+
+.job:hover .jobRight  .btnApply{
+  background-color: #fff;
+  border-color: #fff;
+  color: #FF7F00 !important; 
+}
+
+
+
+.officsPic img{
+  width: 100%;
+  object-fit: cover;
+}
+.working{
+  margin-bottom: 20px;
+}
+.working h3 span{
+  color: #FF7F00;
+}
+
+@media (min-width: 1600px) {
+  .job{
+    padding: 30px 20px 22px;
+  }
+    .joinTop {
+      max-width: 818px;
+    }
+  .joinTeam {
+    padding-top: 245px;
+    margin-bottom: 130px;
+  }
+  .jobLeft h4 {
+    font-size: 36px;
+    margin-top: 29px;
+  }
+  .jobRight h5 {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 767px) {
+  .job {
+      margin: 0 auto 20px;
+    }
+  .joinTeam {
+    padding-top: 130px;
+    margin-bottom: 50px;
+  }
+  .joinTop h1{
+    font-size: 28px !important;
+    line-height: 40px;
+  }
+  .jobLeft {
+    margin-bottom: 23px;
+  }
+  .jobLeft h4 {
+    font-size: 20px;
+    margin-top: 12px;
+  }
+  .jobRight {
+    align-items: flex-start;
+  }
+  .jobRight h5 {
+    font-size: 21px;
+    margin-top: 7px;
+    margin-bottom: 4px;
+  }
+     .btnApply {
+       min-width: 135px;
+       padding: .5rem 1rem;
+     }
+}

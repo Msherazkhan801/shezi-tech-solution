@@ -1,0 +1,25 @@
+.team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.team img {
+  mix-blend-mode: luminosity;
+}
+.teamBtn {
+  position: absolute;
+}
+
+@media (max-width: 991px) {
+  .team img {
+    min-height: 400px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 767px) {
+  .team img {
+    min-height: 300px;
+  }
+}

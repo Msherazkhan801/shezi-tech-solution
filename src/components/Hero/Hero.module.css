@@ -1,0 +1,432 @@
+.HeroWrapper {
+  background-color: #f8fbff;
+}
+.heroRow {
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 145px;
+  padding-bottom: 82px;
+}
+.tags span {
+  font-size: 24px;
+  color: #ff7f00;
+  text-transform: uppercase;
+  padding-right: 8px;
+}
+.tagline h1 {
+  margin-bottom: 33px;
+  margin-top: 0px;
+  position: relative;
+  overflow: hidden;
+}
+.tagline h1 span {
+  position: relative;
+}
+
+@keyframes changeText {
+  0% {
+    content: "Innovative";
+  }
+
+  50% {
+    content: "Creative";
+  }
+
+  75% {
+    content: "Productive";
+  }
+}
+
+.tagline h1 span::after {
+  content: "Innovative";
+  color: #ff7f00;
+  animation: changeText 6s linear infinite;
+  /* animation-duration: 8s;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out; */
+}
+.tagline p {
+  font-size: 18px;
+  color: #000000;
+}
+
+@-webkit-keyframes float {
+  0% {
+    transform: translatex(-15px) translatey(-15px);
+  }
+  50% {
+    transform: translatex(20px) translatey(20px);
+  }
+  100% {
+    transform: translatex(-15px) translatey(-15px);
+  }
+}
+@keyframes float {
+  0% {
+    transform: translatex(-15px) translatey(-15px);
+  }
+  50% {
+    transform: translatex(20px) translatey(20px);
+  }
+  100% {
+    transform: translatex(-15px) translatey(-15px);
+  }
+}
+
+.heroImage {
+  position: relative;
+  -webkit-animation: float 5s ease-in-out infinite;
+  animation: float 5s ease-in-out infinite;
+}
+
+.tags {
+  display: flex;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+.heroImage img {
+  max-width: 100%;
+  overflow: hidden;
+}
+.heroOuterImage {
+  padding-left: 20px;
+}
+
+.heroInnerImage {
+  position: absolute;
+  left: 100px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.heroInnerImage img {
+  max-width: 280px;
+}
+.heroSkills .skill {
+  position: absolute;
+}
+.heroSkills .skill img:last-child {
+  position: absolute;
+}
+
+.heroSkills .skill1 {
+  top: -53px;
+  right: 48px;
+}
+.heroSkills .skill1 img:first-child {
+  max-width: 108px;
+}
+.heroSkills .skill1 img:last-child {
+  left: 8px;
+  max-width: 150px;
+  top: -39px;
+}
+.heroSkills .skill2 {
+  top: -15px;
+  right: -38px;
+}
+.heroSkills .skill2 img:first-child {
+  max-width: 125px;
+}
+.heroSkills .skill2 img:last-child {
+  max-width: 84px;
+  right: -60px;
+  top: 19%;
+}
+.heroSkills .skill3 {
+  top: 94px;
+  right: -45px;
+}
+.heroSkills .skill3 img:first-child {
+  max-width: 92px;
+}
+.heroSkills .skill3 img:last-child {
+  max-width: 60px;
+  top: 28%;
+}
+.heroSkills .skill4 {
+  top: 182px;
+  right: -36px;
+}
+.heroSkills .skill4 img:first-child {
+  max-width: 125px;
+}
+.heroSkills .skill4 img:last-child {
+  top: 50%;
+  max-width: 82px;
+  right: -60px;
+}
+.heroSkills .skill5 {
+  top: 236px;
+  right: 52px;
+}
+.heroSkills .skill5 img:first-child {
+  max-width: 101px;
+}
+.heroSkills .skill5 img:last-child {
+  left: 7px;
+  max-width: 137px;
+  bottom: -9px;
+}
+@media (min-width: 992px) {
+  .heroOuterImage img {
+    max-width: 585px;
+  }
+  .heroOuterImage {
+    max-width: 585px;
+
+  }
+}
+
+@media (min-width: 1200px) {
+  .tags {
+    margin-bottom: 33px;
+  }
+  .tags span {
+    font-size: 30px;
+  }
+  .tagline p {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1600px) {
+  .heroRow {
+    padding-top: 145px;
+  }
+  .heroLeft {
+    padding-top: 25px;
+  }
+  .heroInnerImage {
+    left: 80px;
+  }
+  .heroOuterImage {
+    max-width: 709px;
+    padding-left: 0px;
+  }
+  .heroOuterImage img {
+    max-width: 709px;
+  }
+  .heroInnerImage img {
+    max-width: 380px;
+  }
+  .heroSkills .skill1 {
+    top: -48px;
+    right: 62px;
+  }
+  .heroSkills .skill1 img:first-child {
+    max-width: 128px;
+  }
+  .heroSkills .skill1 img:last-child {
+    left: 8px;
+    top: -45px;
+    max-width: 181px;
+  }
+  .heroSkills .skill2 {
+    top: 0px;
+    right: -39px;
+  }
+  .heroSkills .skill2 img:first-child {
+    max-width: 145px;
+  }
+  .heroSkills .skill2 img:last-child {
+    right: -95px;
+    top: 19%;
+    max-width: 114px;
+  }
+
+  .heroSkills .skill3 {
+    top: 129px;
+    right: -55px;
+  }
+  .heroSkills .skill3 img:first-child {
+    max-width: 112px;
+  }
+  .heroSkills .skill3 img:last-child {
+    top: 28%;
+    max-width: 79px;
+  }
+  .heroSkills .skill4 {
+    top: 243px;
+    right: -39px;
+  }
+  .heroSkills .skill4 img:first-child {
+    max-width: 145px;
+  }
+  .heroSkills .skill4 img:last-child {
+    top: 50%;
+    right: -74px;
+    max-width: 112px;
+  }
+  .heroSkills .skill5 {
+    top: 309px;
+    right: 65px;
+  }
+  .heroSkills .skill5 img:first-child {
+    max-width: 121px;
+  }
+  .heroSkills .skill5 img:last-child {
+    left: 7px;
+    max-width: 191px;
+    bottom: -12px;
+  }
+}
+@media (max-width: 1700px) and (min-width: 1200px) {
+  .HeroWrapper .heroLeft {
+    flex: 0 0 48.333333%;
+    max-width: 48.333333%;
+  }
+  .HeroWrapper .heroRight {
+    flex: 0 0 51.666667%;
+    max-width: 51.666667%;
+  }
+}
+@media (max-width: 1700px) {
+  .positivity .positivity__words .change {
+    top: 50%;
+    left: 34%;
+  }
+}
+@media (max-width: 1499px) {
+  .positivity .positivity__words .change {
+    top: 55%;
+    left: 36%;
+  }
+}
+@media (max-width: 1199px) {
+  .heroRow {
+    height: auto;
+  }
+  .heroImage {
+    max-width: 610px;
+    margin: 0 auto;
+  }
+  .positivity .positivity__words .change {
+    top: 49%;
+    left: 43%;
+  }
+}
+@media (max-width: 991px) {
+  .positivity .positivity__words .change {
+    top: 40%;
+    left: 41%;
+  }
+}
+@media (max-width: 767px) {
+  .heroRow {
+    min-height: auto;
+    padding-top: 130px;
+    padding-bottom: 10px;
+  }
+  .heroImage {
+    -webkit-animation: none;
+    animation: none;
+  }
+  .tags {
+    margin-bottom: 10px;
+  }
+  .heroOuterImage {
+    padding-left: 0px;
+  }
+  
+
+  .heroLeft {
+    clip-path: none;
+    opacity: 1;
+    transform: none;
+  }
+  .heroImage {
+    max-width: 350px;
+    margin: 30px auto;
+  }
+  .heroInnerImage {
+    left: 35px;
+  }
+  .heroInnerImage img {
+    max-width: 180px;
+  }
+  .heroSkills .skill1 img:first-child {
+    max-width: 70px;
+  }
+  .heroSkills .skill1 {
+    top: -34px;
+    right: 29px;
+  }
+  .heroSkills .skill1 img:first-child {
+    max-width: 70px;
+  }
+  .heroSkills .skill1 img:last-child {
+    max-width: 93px;
+    top: -20px;
+    left: 5px;
+  }
+  .heroSkills .skill2 {
+    top: -7px;
+    right: -23px;
+  }
+  .heroSkills .skill2 img:first-child {
+    max-width: 77px;
+  }
+  .heroSkills .skill2 img:last-child {
+    max-width: 60px;
+    right: -46px;
+    top: 19%;
+  }
+
+  .heroSkills .skill3 {
+    top: 61px;
+    right: -32px;
+  }
+  .heroSkills .skill3 img:first-child {
+    max-width: 59px;
+  }
+  .heroSkills .skill3 img:last-child {
+    max-width: 46px;
+    top: 28%;
+  }
+  .heroSkills .skill4 {
+    top: 119px;
+    right: -21px;
+  }
+  .heroSkills .skill4 img:first-child {
+    max-width: 73px;
+  }
+  .heroSkills .skill4 img:last-child {
+    top: 50%;
+    max-width: 56px;
+    right: -40px;
+  }
+  .heroSkills .skill5 {
+    top: 151px;
+    right: 29px;
+  }
+  .heroSkills .skill5 img:first-child {
+    max-width: 64px;
+  }
+  .heroSkills .skill5 img:last-child {
+    left: 7px;
+    max-width: 88px;
+    bottom: -9px;
+  }
+
+  .tagline h1 {
+    font-size: 28px;
+    line-height: 40px;
+    margin: 15px 0px;
+  }
+
+  .positivity__words {
+    display: block;
+    height: 60px;
+    position: relative;
+  }
+  .positivity .positivity__words .change {
+    top: 0%;
+    left: 0%;
+  }
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .tags span {
+    font-size: 20px;
+  }
+}

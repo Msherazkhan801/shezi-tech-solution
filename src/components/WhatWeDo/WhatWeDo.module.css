@@ -1,0 +1,102 @@
+.whatWrapper {
+  padding: 100px 0px 140px;
+  background-image: url(../../../public/assets/images/what-bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+.whatImages {
+  position: relative;
+}
+
+.whatTwo {
+  max-width: 160px;
+  position: absolute;
+  top: 115px;
+  left: 79px;
+}
+.whatThree {
+  max-width: 160px;
+  position: absolute;
+  top: 200px;
+  right: 50px;
+}
+
+.whatContent h2 {
+  margin-bottom: 30px;
+}
+.whatContent p {
+  margin-bottom: 30px;
+}
+.whatOptions {
+  margin-bottom: 35px;
+}
+
+.whatOptions span {
+  font-size: 24px;
+  color: #ff6f00;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 1600px) {
+  .whatWrapper {
+    padding: 130px 0px 260px;
+  }
+  .whatTwo {
+    max-width: 100%;
+    top: 150px;
+    left: 104px;
+  }
+  .whatThree {
+    max-width: 100%;
+    top: 260px;
+    right: 68px;
+  }
+  .whatContent {
+    padding-left: 110px !important;
+  }
+  .whatContent h2 {
+    margin-bottom: 50px;
+  }
+  .whatOptions {
+    margin-bottom: 60px;
+  }
+  .whatOptions a {
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 991px) {
+  .whatWrapper {
+    padding-bottom: 120px;
+  }
+  .whatImages {
+    max-width: 550px;
+    margin: 70px auto 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .whatWrapper {
+    padding-bottom: 70px;
+    padding-top: 50px;
+  }
+  .whatContent h2 {
+    margin-bottom: 15px;
+  }
+  .whatOptions a {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .whatOptions {
+    margin-bottom: 25px;
+  }
+
+  .whatImages {
+    margin-top: 30px;
+  }
+    .whatOptions span{
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+}

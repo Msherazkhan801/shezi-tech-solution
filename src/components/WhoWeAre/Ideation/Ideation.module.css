@@ -1,0 +1,50 @@
+.ideationInner {
+  padding: 60px 0px 69px;
+  display: flex;
+}
+.siteTabs {
+  width: 50%;
+  overflow: hidden;
+  flex: 0 0 50%;
+}
+
+.ideationTabContane {
+  padding: 16px;
+}
+
+.ideationTabContane p {
+  margin-bottom: 0px;
+}
+
+@media (max-width: 991px) {
+  .ideationInner {
+    flex-wrap: wrap;
+  }
+  .siteTabs {
+    width: 100%;
+    flex: 0 0 100%;
+  }
+  .siteTabs a {
+    text-align: left;
+    font-size: 19px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .siteTabs a:after {
+    display: none !important;
+  }
+    .ideationTabContane {
+     padding-left: 0px;
+     padding-right: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+  .ideationInner {
+    padding: 50px 0px 34px;
+    display: flex;
+  }
+  .siteTabs a {
+    font-size: 17px;
+  }
+}

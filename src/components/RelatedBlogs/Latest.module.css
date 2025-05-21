@@ -1,0 +1,8 @@
+.titleContainer {
+  margin: 8em 0 3em 0;
+}
+
+@media screen and (min-width: 1600px) {
+}
+@media (max-width: 767px) {
+}

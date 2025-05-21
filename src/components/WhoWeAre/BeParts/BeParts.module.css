@@ -1,0 +1,31 @@
+.beParts {
+  padding: 60px 0px 80px;
+}
+.bePartsInner {
+  max-width: 859px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bePartsInner h2 {
+  max-width: 620px;
+  margin: 0 auto 20px;
+}
+
+.bePartsInner p {
+  margin-bottom: 50px;
+}
+
+@media (min-width: 1600px) {
+  .bePartsInner h2 {
+    line-height: 70px;
+  }
+  .beParts {
+    padding: 90px 0px 125px;
+  }
+}
+@media (max-width: 767px) {
+  .beParts {
+    padding: 50px 0px ;
+  }
+}

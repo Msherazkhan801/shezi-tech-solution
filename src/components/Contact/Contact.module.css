@@ -1,0 +1,81 @@
+.contactWrapper {
+  background-color: #0b314f;
+  padding: 85px 0px;
+  color: #fff;
+}
+
+.contactText p {
+  max-width: 450px;
+  color: #fff;
+  margin-bottom: 35px;
+  margin-top: 20px;
+}
+
+.contactText p.contactNumber {
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 5px;
+}
+.contactEmail {
+  margin-top: 0px !important ;
+}
+.contactEmail a:hover {
+  color: #fff;
+}
+.submit {
+  border: 0px;
+  border-bottom: 1px solid #ff7f00;
+  background: transparent;
+  color: #ff7f00;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.contactLink a {
+  border-bottom: 1px solid #fff;
+  font-size: 18px;
+  padding: 2px 4px;
+}
+
+.contactLink a:hover {
+  border-bottom: 1px solid #ff7f00;
+}
+.contactLink a:hover {
+  color: #ff7f00;
+}
+.contactNumber a,
+.contactEmail a {
+  font-size:25px;
+  color: #fff !important;
+}
+.contactEmail:hover a,
+.contactNumber:hover a {
+  color: #ff7f00 !important;
+}
+
+@media (min-width: 1600px) {
+  .contactWrapper {
+    padding: 135px 0px;
+  }
+  .contactText h2 {
+    font-size: 54px;
+    line-height: 72px;
+  }
+  .contactNumber a,
+  .contactEmail a {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .contactWrapper {
+    padding: 50px 0px;
+  }
+    .contactNumber a,
+    .contactEmail a {
+      font-size: 20px;
+    }
+  .Contact_contactText__RS4LR h2 {
+    font-size: 45px;
+  }
+}

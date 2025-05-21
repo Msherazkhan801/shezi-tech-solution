@@ -1,0 +1,110 @@
+.jobDetailWrapper{
+    padding: 200px 0px 60px;
+}
+.back{
+    font-size: 18px;
+    font-family: "ProximaNova-Regular";
+    margin-bottom: 25px;
+    display: block;
+
+}
+.apply{
+    font-family: "ProximaNova-Regular";
+    color: #FF7F00;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.detailTitle h4{
+    font-weight: bold;
+    margin: 0px;
+}
+.detailTitle{
+    position: relative;
+    padding-left: 40px;
+    display: inline-flex;
+    align-items: center;
+}
+.detailTitle::after{
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+    color: #FF7F00;
+    font-size: 36px;
+    width: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.listItemWrapper{
+    list-style: none;
+    padding-left: 0px;
+}
+.listItem{
+    padding-left: 20px;
+    position: relative;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.listItem::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 6px;
+    z-index: 1;
+    width: 8px;
+    height: 8px;
+    background: #ff7f00;
+    border-radius: 50px
+}
+.detailLeft{
+    padding-left: 13%;
+}
+.jobContact{
+    background: #F8FBFF;
+    padding: 70px 40px 30px;
+}
+
+.jobContact input,.jobContact textarea{
+    background-color: transparent;
+}
+@media (min-width:1600px){
+    .jobContact {
+            padding: 100px 50px 70px;
+        }
+    .back {
+        font-size: 24px;
+        margin-bottom: 25px;
+        }
+   .jobDetailWrapper {
+       padding: 245px 0px 80px;
+   }
+    .apply{
+        margin-top: 15px;
+        margin-bottom: 40px;
+    }
+    .detailTitle h4 {
+        font-size: 36px;
+    }
+}
+@media (max-width:991px) {
+    .detailLeft {
+        padding: 0px 30px;
+    }
+    .jobContact {
+        background: #F8FBFF;
+        padding: 70px 15px 30px;
+    }
+}
+@media (max-width:767px) {
+    .jobDetailWrapper{
+        padding: 130px 0px 0px;
+    }
+    .jobContact{
+    background: #F8FBFF;
+    padding: 50px 15px 10px;
+    margin-top: 20px;
+    }
+    .detailTitle h4 {
+        font-size: 21px;
+    }
+}

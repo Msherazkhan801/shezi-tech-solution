@@ -1,0 +1,42 @@
+.slick-slide.slick-active {
+  background: yellow;
+}
+.workWrapper {
+  padding: 0px 0px 70px;
+}
+.workTop {
+  margin-bottom: 60px;
+  max-width: 783px;
+}
+.workTop .title {
+  margin-bottom: 20px;
+}
+
+.workSlider .slick-active {
+  background: green !important;
+}
+
+.workSlider > div:nth-child(2) {
+  background: yellow;
+}
+
+.slideImages {
+  padding:0px 5px;
+}
+
+@media (min-width: 1600px) {
+  .workWrapper {
+    padding: 0px 0px 110px;
+  }
+}
+@media (max-width: 767px) {
+  .workWrapper {
+    padding: 0px 0px 50px;
+  }
+  .workTop {
+    margin-bottom: 40px;
+  }
+  .workTop .title {
+    margin-bottom: 15px;
+  }
+}

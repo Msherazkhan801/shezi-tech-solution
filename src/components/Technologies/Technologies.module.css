@@ -1,0 +1,98 @@
+
+.technologies{
+    margin-bottom: 70px;
+}
+.technologies p{
+    max-width: 776px;
+    font-size: 18px;
+}
+.technologiesList{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 55px;
+    border-bottom: 1px solid #C7C7C7;
+}
+.technlogiesWrapper .technologies:last-child .technologiesList{
+    border-bottom: 0px;
+    padding-bottom: 00px;
+}
+.tech{
+    width: 158px;
+    height: 158px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    transition: .3s ease-in-out;
+}
+.tech img {
+    margin-bottom: 30px;
+}
+.tech h4{
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.tech:hover{
+    background-color: #F9F9FB;
+}
+@media screen and (min-width:1600px) {
+    .technologies p {
+        font-size: 24px;
+    }
+    .technologies {
+        margin-bottom: 81px;
+    }
+    .technologiesList {
+        margin-top: 65px;
+        padding-bottom: 55px;
+    }
+    .tech {
+        width: 198px;
+        height: 198px;
+
+    }
+    .tech img{
+        margin-bottom: 45px;
+    }
+    .tech h4 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:767px) {
+ 
+    .technologies{
+        margin-bottom: 40px;
+    }
+    .technologies:last-child{
+        margin-bottom: 20px;
+    }
+    .technologies > h2{
+        font-size: 23px !important;
+    }
+    .technologiesList{
+        margin-top: 30px;
+        padding-bottom: 15px;
+    }
+    .tech{
+        width: auto;
+        height: auto;
+        padding: 20px 9px;
+        flex: 0 0 33.333%;
+        width: 33.333%;
+    }
+    .tech img{
+        width: 40px;
+        margin-bottom: 15px;
+        height: 40px;
+        object-fit: contain;
+    }
+    .tech h4{
+        font-size: 14px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,93 @@
+.audience {
+  padding: 180px 0 56px;
+  background-color: #F8FBFF;
+}
+.audience h1 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.audience h4 {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.audienceLeft h2 {
+  margin-bottom: 30px;
+  padding-right: 10px;
+}
+.audienceLeft h3 {
+  margin-bottom: 15px;
+  text-transform: none;
+  font-weight: bold;
+}
+
+
+.audienceRight p {
+  font-size: 17px;
+  line-height: 30px;
+}
+
+@media (min-width: 1600px) {
+  .audience h1 {
+    margin-bottom: 25px;
+  }
+  .audienceLeft h2 {
+    margin-bottom: 40px;
+  }
+  .audience {
+    padding: 245px 0 66px;
+  }
+  .audienceLeft h3 {
+    margin-bottom: 20px;
+    font-size: 48px;
+    line-height: 50px;
+  }
+  /* .audienceLeft h3 span {
+    display: inline-block;
+    margin-bottom: 30px;
+  } */
+    .audienceRight p{
+      font-size: 24px;
+      line-height: 36px;
+    }
+  .audience h4 {
+    margin-bottom: 110px;
+    font-size: 24px;
+  }
+}
+@media (max-width: 991px) {
+  .audienceLeft h2 {
+    margin-bottom: 20px;
+  }
+  .audienceLeft h3 {
+    margin-bottom: 5px;
+  }
+  .audienceLeft {
+    text-align: center;
+  }
+  .audienceLeft h3 span {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .audience h4 {
+    margin-bottom: 30px;
+  }
+  .audience {
+    padding: 130px 0 30px;
+  }
+  .audience h1 {
+    margin-bottom: 10px;
+  }
+  .audienceLeft h3 {
+    margin-bottom: 2px;
+    font-size: 20px !important;
+  }
+  .audience h4 {
+    font-weight: normal;
+  }
+}
